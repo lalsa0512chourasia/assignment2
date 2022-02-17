@@ -55,13 +55,13 @@ class ClassForm extends React.Component {
                     {/* //when we write somewords between input tags then nothing will be shown in the screen */}
                 </form>
 
-                {/* // <div className='box'>
-                //     {this.state.user.map((value, index) => {
+                <div className='box'>
+                 {this.state.user.map((value, index) => {
                         return (
                             <div className='child-box' key={index}>Name: {value.name} | Department: {value.department} | Rating: {value.rating}</div>
                         )
                     })}
-                </div> */}
+                </div>
 
                 
             </>
